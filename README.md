@@ -16,3 +16,12 @@ deploy.sh is a Bash script that automatically performs the necessary steps to ru
 
    Copy both `deploy-git` and `supervisor` folders into the **root directory** of your Laravel project.
 
+
+4. **Run deployment manually**
+
+   To manually deploy the project, run the following Artisan command:
+
+```bash
+php artisan deploy:prod
+
+
